@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { BibleVerse } from "@/components/bible-verse"
 import { NewsletterSignup } from "@/components/newsletter-signup"
+import { GoogleMap } from "@/components/google-map"
 
 export default function Home() {
     return (
@@ -12,16 +13,16 @@ export default function Home() {
             {/* Hero Section */}
             <section className="relative w-full h-[80vh] flex items-center justify-center">
                 <Image
-                    src="/placeholder.svg?height=1080&width=1920"
+                    src="/images/harmony-aerial.jpg"
                     alt="Church congregation"
                     fill
                     className="object-cover brightness-[0.7]"
                     priority
                 />
                 <div className="relative z-10 container mx-auto px-4 text-center">
-                    <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">Welcome to Grace Community Church</h1>
+                    <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">Welcome to Harmony Baptist Church</h1>
                     <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
-                        A place of faith, hope, and love where everyone is welcome
+                        Loving Jesus ~ A Heart for God ~ Caring for People
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Button size="lg" className="bg-amber-500 hover:bg-amber-600 text-white">
@@ -213,8 +214,8 @@ export default function Home() {
                             <div className="flex items-start mb-4">
                                 <MapPin className="h-5 w-5 text-sky-600 mr-3 mt-1 flex-shrink-0" />
                                 <div>
-                                    <p className="font-medium">Grace Community Church</p>
-                                    <p className="text-gray-600">123 Faith Avenue, Cityville, ST 12345</p>
+                                    <p className="font-medium">Harmony Baptist Church</p>
+                                    <p className="text-gray-600">20932 Co Rd 79, Andalusia, AL 36421</p>
                                 </div>
                             </div>
                             <div className="flex items-start mb-4">
@@ -230,7 +231,7 @@ export default function Home() {
                                 <div>
                                     <p className="font-medium">Contact Us</p>
                                     <p className="text-gray-600">info@gracechurch.org</p>
-                                    <p className="text-gray-600">(555) 123-4567</p>
+                                    <p className="text-gray-600">(334) 222-8117</p>
                                 </div>
                             </div>
                             <div className="mt-6">
@@ -239,12 +240,10 @@ export default function Home() {
                                 </Button>
                             </div>
                         </div>
-                        <div className="h-[300px] md:h-[400px] relative rounded-lg overflow-hidden shadow-md">
-                            {/* This would be a Google Map in a real implementation */}
-                            <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                                <p className="text-gray-500">Google Map would be embedded here</p>
-                            </div>
-                        </div>
+                        <GoogleMap
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3407.0651335551956!2d-86.38054940321044!3d31.35718179999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8891f0f8fe6e82a3%3A0xfa1401d23658ec08!2sHARMONY!5e0!3m2!1sen!2sus!4v1754428619605!5m2!1sen!2sus"                            title="Grace Community Church Location"
+                            className="h-[300px] md:h-[400px]"
+                        />
                     </div>
                 </div>
             </section>

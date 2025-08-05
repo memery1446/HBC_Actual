@@ -35,8 +35,8 @@ export function Header() {
                 <div className="flex h-16 items-center justify-between">
                     <div className="flex items-center">
                         <Link href="/" className="flex items-center">
-                            <span className="text-2xl font-bold text-sky-600">Grace</span>
-                            <span className="text-2xl font-bold ml-1">Church</span>
+                            <span className="text-2xl font-bold text-sky-600">Harmony</span>
+                            <span className="text-2xl font-bold ml-1">Baptist Church</span>
                         </Link>
                     </div>
 

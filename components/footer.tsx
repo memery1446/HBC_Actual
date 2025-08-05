@@ -7,7 +7,7 @@ export function Footer() {
             <div className="container mx-auto px-4 py-12">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <div>
-                        <h3 className="text-xl font-bold mb-4">Grace Community Church</h3>
+                        <h3 className="text-xl font-bold mb-4">Harmony Baptist Church</h3>
                         <p className="text-gray-300 mb-4">A place of faith, hope, and love where everyone is welcome.</p>
                         <div className="flex space-x-4">
                             <Link href="#" className="text-gray-300 hover:text-white">
@@ -96,11 +96,11 @@ export function Footer() {
                         <ul className="space-y-3">
                             <li className="flex">
                                 <MapPin className="h-5 w-5 mr-2 flex-shrink-0" />
-                                <span>123 Faith Avenue, Cityville, ST 12345</span>
+                                <span>20932 Co Rd 70, Andalusia, AL 36421</span>
                             </li>
                             <li className="flex">
                                 <Phone className="h-5 w-5 mr-2 flex-shrink-0" />
-                                <span>(555) 123-4567</span>
+                                <span>(334) 222-8117</span>
                             </li>
                             <li className="flex">
                                 <Mail className="h-5 w-5 mr-2 flex-shrink-0" />
@@ -111,7 +111,7 @@ export function Footer() {
                 </div>
 
                 <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400 text-sm">
-                    <p>&copy; {new Date().getFullYear()} Grace Community Church. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Harmony Baptist Church. All rights reserved.</p>
                     <div className="mt-2">
                         <Link href="/privacy" className="hover:text-white">
                             Privacy Policy

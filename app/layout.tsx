@@ -9,8 +9,8 @@ import { Footer } from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-    title: "Grace Community Church",
-    description: "A place of faith, hope, and love where everyone is welcome",
+    title: "Harmony Baptist Church",
+    description: "Loving Jesus ~ A Heart for God ~ Caring for People",
 }
 
 export default function RootLayout({

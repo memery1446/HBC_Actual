@@ -50,11 +50,30 @@ export default function Home() {
             <section className="py-16 bg-white">
                 <div className="container mx-auto px-4">
                     <div className="text-center mb-12">
-                        <h2 className="text-3xl font-bold text-gray-900 mb-4">Welcome to Our Church Family</h2>
-                        <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                            We are a vibrant community of believers dedicated to serving God and our community. Join us as we grow
-                            together in faith and fellowship.
-                        </p>
+                        <h2 className="text-3xl font-bold text-gray-900 mb-4">Welcome to Harmony</h2>
+                        <div className="text-lg text-gray-600 max-w-4xl mx-auto space-y-4">
+                            <p>
+                                We Invite You To Worship With Us. <br /> No Matter Where You Are At On Life's Journey, You Are Welcome Here!
+                            </p>
+                            <p>
+                                We believe that God loves all of creation and through Jesus Christ <br /> we are brought into fellowship with God.
+                            </p>
+                            <p>
+                                We are a family, proclaiming the love and grace of God, as found in God's Word. <br /> All are welcome at Harmony Baptist Church - those who believe as well as those who are seeking.
+                            </p>
+                            <p>
+                                At each service we gather for meaningful worship to study God's word. <br /> We reach out with the heart of ministry to care for our neighbors <br /> in the name of Christ here and around the world.
+                            </p>
+                            <p>
+                                We have fun and fellowship in a variety of activities ranging from dinners to sporting events. <br /> As we work and worship together we find that our faith grows as we enjoy friends old and new.
+                            </p>
+                            <p>
+                                You will discover many exciting opportunities at Harmony Baptist Church. <br /> Our website is just the introduction to the spirit of our church. <br /> We want you to feel at home and comfortable here.
+                            </p>
+                            <p>
+                                We are pleased to welcome you as part of a growing and diverse Christian community. <br /> Please Join Us For An Upcoming Worship Service. <br /> There's A Place For You Here At Harmony Baptist Church.
+                            </p>
+                        </div>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -83,7 +102,6 @@ export default function Home() {
                                 </Link>
                             </CardContent>
                         </Card>
-
                         <Card className="border-none shadow-md hover:shadow-lg transition-shadow">
                             <CardContent className="p-6">
                                 <div className="flex items-center mb-4">
@@ -101,7 +119,7 @@ export default function Home() {
                                     </li>
                                     <li>
                                         <p className="font-medium">Finding Peace in Chaos</p>
-                                        <p className="text-sm text-gray-500">Pastor Michael Brown</p>
+                                        <p className="text-sm text-gray-500">Bro. Scott Donaldson</p>
                                     </li>
                                 </ul>
                                 <Link href="/sermons" className="flex items-center text-sky-600 mt-4 text-sm font-medium">
@@ -145,7 +163,7 @@ export default function Home() {
                 <div className="container mx-auto px-4 text-center">
                     <h2 className="text-3xl font-bold mb-4">Join Us This Sunday</h2>
                     <p className="text-xl mb-8 max-w-2xl mx-auto">
-                        Experience the warmth of our community and the power of worship. Services at 9:00 AM and 11:00 AM.
+                        Experience the warmth of our community and the power of worship. Sunday School at 9:15 and Worship at 10::30.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Button size="lg" className="bg-amber-500 hover:bg-amber-600 text-white">
@@ -222,8 +240,9 @@ export default function Home() {
                                 <Calendar className="h-5 w-5 text-sky-600 mr-3 mt-1 flex-shrink-0" />
                                 <div>
                                     <p className="font-medium">Service Times</p>
-                                    <p className="text-gray-600">Sundays at 9:00 AM & 11:00 AM</p>
-                                    <p className="text-gray-600">Wednesday Bible Study at 7:00 PM</p>
+                                    <p className="text-gray-600">Sunday School at 9:15 AM</p>
+                                    <p className="text-gray-600">Sunday Morning Worship at 10:30 AM</p>
+                                    <p className="text-gray-600">Wednesday Evening Worship at 6:30 PM</p>
                                 </div>
                             </div>
                             <div className="flex items-start mb-4">

@@ -28,7 +28,7 @@ export default function ServicesPage() {
                     <div className="text-center mb-12">
                         <h2 className="text-3xl font-bold text-gray-900 mb-4">Worship With Us</h2>
                         <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                            We offer multiple services to accommodate your schedule. All are welcome!
+                            All are welcome!
                         </p>
                     </div>
 
@@ -40,8 +40,10 @@ export default function ServicesPage() {
                                         <Clock className="h-8 w-8 text-sky-600" />
                                     </div>
                                     <h3 className="text-xl font-bold mb-2">Sunday Morning</h3>
-                                    <p className="text-gray-600 mb-2">9:00 AM & 11:00 AM</p>
-                                    <p className="text-gray-600">Traditional worship with choir and full sermon</p>
+                                    <p className="text-gray-600">9:15 AM</p>
+                                    <p className="text-gray-600 mb-2">Bible Study All Ages</p>
+                                    <p className="text-gray-600">10:30 AM</p>
+                                    <p className="text-gray-600 mb-2">Morning Worship</p>
                                 </div>
                             </CardContent>
                         </Card>
@@ -52,9 +54,11 @@ export default function ServicesPage() {
                                     <div className="w-16 h-16 rounded-full bg-sky-100 flex items-center justify-center mb-4">
                                         <Music className="h-8 w-8 text-sky-600" />
                                     </div>
-                                    <h3 className="text-xl font-bold mb-2">Sunday Evening</h3>
-                                    <p className="text-gray-600 mb-2">6:00 PM</p>
-                                    <p className="text-gray-600">Contemporary worship with band and teaching</p>
+                                    <h3 className="text-xl font-bold mb-2">Sunday Afternoon/Evening</h3>
+                                    <p className="text-gray-600">4:30 PM</p>
+                                    <p className="text-gray-600 mb-2">Choir Practice</p>
+                                    <p className="text-gray-600">6:00 PM</p>
+                                    <p className="text-gray-600 mb-2">Evening Worship</p>
                                 </div>
                             </CardContent>
                         </Card>
@@ -66,8 +70,10 @@ export default function ServicesPage() {
                                         <BookOpen className="h-8 w-8 text-sky-600" />
                                     </div>
                                     <h3 className="text-xl font-bold mb-2">Wednesday Night</h3>
-                                    <p className="text-gray-600 mb-2">7:00 PM</p>
-                                    <p className="text-gray-600">Bible study and prayer meeting</p>
+                                    <p className="text-gray-600">5:45 PM</p>
+                                    <p className="text-gray-600 mb-2">Meal</p>
+                                    <p className="text-gray-600">6:30 PM</p>
+                                    <p className="text-gray-600 mb-2">Evening Worship</p>
                                 </div>
                             </CardContent>
                         </Card>
@@ -76,7 +82,7 @@ export default function ServicesPage() {
                     <div className="mt-12 text-center">
                         <div className="inline-flex items-center justify-center p-4 bg-sky-50 rounded-lg mb-4">
                             <MapPin className="h-5 w-5 text-sky-600 mr-2" />
-                            <span className="text-gray-700">123 Faith Avenue, Cityville, ST 12345</span>
+                            <span className="text-gray-700">20932 Co Rd 70, AL 36421</span>
                         </div>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6">
                             <Button asChild size="lg">

@@ -123,17 +123,17 @@ export default function AboutPage() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                         {[
                             {
-                                name: "Pastor John Smith",
+                                name: "Bro. Scott Donaldson",
                                 role: "Lead Pastor",
                                 bio: "Pastor John has served our church for over 15 years. He has a passion for teaching God's Word and helping people grow in their faith.",
                             },
                             {
-                                name: "Sarah Johnson",
+                                name: "Mark Emery",
                                 role: "Worship Pastor",
                                 bio: "Sarah leads our worship ministry with creativity and a deep love for God. She has been part of our church family since 2010.",
                             },
                             {
-                                name: "Michael Brown",
+                                name: "Thomas and Emily Rambo",
                                 role: "Youth Pastor",
                                 bio: "Michael brings energy and wisdom to our youth ministry. He is dedicated to helping young people build a strong foundation in Christ.",
                             },
